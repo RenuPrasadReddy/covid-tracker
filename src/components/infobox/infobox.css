@@ -1,0 +1,13 @@
+.infobox {
+  flex: 1;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.infobox_active {
+  border-top: 10px solid greenyellow;
+}
+
+.infobox_red {
+  border-color: red;
+}

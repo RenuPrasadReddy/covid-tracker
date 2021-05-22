@@ -1,0 +1,20 @@
+.table1 {
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: scroll;
+  /* background-color: #fff; */
+}
+
+.table1 tr {
+  /* this helps, when we make screen smaller, tr should take full row */
+  display: flex;
+  justify-content: space-between;
+}
+
+.table1 td {
+  padding: 5px;
+}
+
+.table1 tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}

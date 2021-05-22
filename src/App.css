@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 10px 20px 0 20px;
   display: flex;
   justify-content: space-between;
@@ -20,6 +20,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  font-style: italic;
 }
 .app_dropdown {
   background-color: #fff;
@@ -35,12 +36,12 @@ body {
 
 .app_col-left {
   flex-basis: 70%;
-  border: 1px solid darkslategrey;
+  /* border: 1px solid darkslategrey; */
 }
 .app_col-right {
   flex-basis: 25%;
   /* flex-grow: 1; */
-  border: 1px solid rgb(216, 53, 24);
+  /* border: 1px solid rgb(216, 53, 24); */
 }
 
 @media (max-width: 990px) {
